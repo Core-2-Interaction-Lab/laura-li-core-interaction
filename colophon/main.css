@@ -1,0 +1,30 @@
+body {
+    font-family: 'Jost', sans-serif;
+    background-color: #F5F2EB;
+
+}
+h1 {
+    font-size: 100px;
+    margin: 0px 30px;
+}
+h2 {
+    margin: 0px 35px;
+}
+
+.titlesec {
+    margin-top: 100px;
+}
+
+.title {
+    font-weight: 700;
+
+}
+.centertext {
+    text-align: center;
+}
+
+.name {
+    font-size: 40px;
+    margin: 0px;
+    font-weight: 400;
+}
