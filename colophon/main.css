@@ -26,5 +26,46 @@ h2 {
 .name {
     font-size: 40px;
     margin: 0px;
+    margin-bottom: 130px;
     font-weight: 400;
+
+}
+
+.date {
+    text-align: right;
+    margin-right: 20px;
+}
+.btext {
+    font-size: large;
+    width: 43%;
+}
+.pquote {
+    text-align: center;
+    font-size: larger;
+    margin-top: 200px;
+    margin-left: -10px;
+    font-size: x-large;
+    width: 500px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+@media(max-width: 600px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .btext {
+        width: 80%;
+        margin-left: 5%;
+    }
+    .pquote {
+        width: 80%;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
 }
