@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Html Structure Analysis</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <!-- Adds: an internal stylesheet. -->
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents {margin: 80px 0; }
+      .flex {
+        display: flex;
+        gap: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Core 2 Interaction: Lab –&nbsp;<em>Week 2: HTML Structure Analysis</em></h1>
+    </header>
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <img class="img" src="assets/dshrig.png" alt="Screenshot of David Shrig Website">
+    </section>
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="flex">
+        <div>
+          <pre id="analysis--simplified-html">
+            header class="site-header shrig-hand">
+              div class="theming">
+                select id="themePicker">
+                  option value="#06f216">Green </ option>
+                  option value="#ffbe0b">Gold  </ option>
+                  option value="#fb5607">Orange  </ option>
+                  option value="#ff006e">Pink </ option>
+                /select>
+                label class="theming__field theming__field--cursor form-control">
+                  input id="customCursorCheckbox" type="checkbox" name="custom-cursor">
+                  Custom cursor
+                /label>
+              /div>
+            
+              div class="site-header__contents">
+                  a href="/" class="site-logo">
+                svg viewBox="0 0 328 60" fill="none" xmlns="http://www.w3.org/2000/svg"> < path 
+                fill-rule="evenodd" clip-rule="evenodd" d="..." fill="currentColor"></path></svg>
+                span class="visually-hidden">D. Shrig</ span>
+              /a>
+            
+          </pre>
+        </div>
+        <div id="analysis--text">
+          <p>
+           <a href="https://davidshrigley.com/shop/shrig-shop">David Shringley</a> 
+          <br> 
+           The header has the class of "site-header' and 'shrig-hand', site-header ensures that the
+           header does not exceed the size of the flexbox, being 0 and shrig-hand establishes the 
+           font and its details. The div class 'themeing' addresses the color selector in the bottom left 
+           corner. it has a lot of styling such as flexbox, positioning, and z -index. 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section  id="analysis--questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+          <!-- TODO: Ask some questions! -->
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
