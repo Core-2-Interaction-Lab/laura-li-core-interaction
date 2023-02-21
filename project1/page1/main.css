@@ -17,3 +17,8 @@ body {
 .hexagon {
     background-color: black;
 }
+
+.hexagon:hover{
+    background-color: white;
+    transition: 0.2s ease-in;
+}
