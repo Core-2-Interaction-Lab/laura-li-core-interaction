@@ -6,6 +6,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 3%;
+    margin-top: -400px;
+ 
 
 }
 
@@ -21,6 +23,7 @@ body {
 .hexagon:hover{
     background-color: white;
     transition: 0.2s ease-in;
+    
 }
 
 .triangle {
@@ -28,11 +31,45 @@ body {
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	border-bottom: 50px solid #555;
+	border-bottom: 50px solid rgb(255, 255, 255);
     transform: rotateZ('90');
+
 
 }
 
-.rotate {
-    transform: rotateZ('90');
+.rotate {transform: rotateZ(60deg); margin-left: -25px; margin-top: -65px;}
+.rotate2 {transform: rotateZ(120deg);margin-left: -25px; margin-top: -85px;}
+.rotate3 {transform: rotateZ(180deg);margin-left: 0px; margin-top: -65px;}
+.rotate4 {transform: rotateZ(240deg);margin-left: 25px; margin-top: -35px;}
+.rotate5 {transform: rotateZ(300deg);margin-left: 25px; margin-top: -15px;}
+
+.center {
+    margin: 50%;
+}
+
+.shapewrap {
+    width: 200px;
+    height: 200px;
+}
+.hexshape {
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+
+.hexes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 250px;
+
+    
+}
+
+.triangle:hover {
+    opacity: 0;
+}
+
+.back:hover {
+    background-color: black;
+    color: white;
 }
