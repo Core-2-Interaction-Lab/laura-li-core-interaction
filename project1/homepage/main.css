@@ -145,6 +145,7 @@ body {
     margin-left: 1300px;
     margin-top: -400px;
     transform: rotateZ(90deg);
+    position: relative;
 }
 
 .triangle2 {
@@ -155,9 +156,6 @@ body {
 	border-bottom: 50px solid rgb(142, 142, 142);
     transform: rotateZ(-90deg);
     margin-right: -50px;
-}
-
-.navbutton {
     position: relative;
-
 }
+
