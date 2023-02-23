@@ -5,6 +5,12 @@ body {
 * { box-sizing: border-box; }
 
 
+.perspective {
+    width: 1400px;
+    height: 710px;
+    overflow: hidden;
+}
+
 .container {
     /* background-color: aquamarine; */
     width: 500px;
@@ -14,6 +20,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+ 
 }
 
 .cube {
@@ -22,6 +29,7 @@ body {
     transform-style: preserve-3d;
     position: relative;
     transform: translateZ(450px);
+    margin-left: -40px;
  
 }
 
@@ -51,6 +59,7 @@ body {
     width: 500px;
     height: 300px;
     top: 100px;
+    
 
 }
 /* .south  { 
@@ -72,30 +81,83 @@ body {
 }
 
 
-/* .cube.show-south  { transform: translateZ( -50px) rotateY(   0deg); }
-.cube.show-north   { transform: translateZ( -50px) rotateY(-180deg); }
-.cube.show-east  { transform: translateZ(-150px) rotateY( -90deg); }
-.cube.show-west   { transform: translateZ(-150px) rotateY(  90deg); }
-.cube.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
-.cube.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
+.show-south  { transform: translateZ( -50px) rotateY(   0deg); }
+.show-north   { transform: translateZ( -50px) rotateY(-180deg); }
+.show-east  { transform: translateZ(-150px) rotateY( -90deg); }
+.show-west   { transform: translateZ(-150px) rotateY(  90deg); }
+.show-top    { transform: translateZ(-100px) rotateX( -90deg); }
+.show-bottom { transform: translateZ(-100px) rotateX(  90deg); }
 
-.radio-group { transform: translateZ(100px);} */
+.radio-group { transform: translateZ(100px);} 
 
-.inttext {
-    transform: scale(-1, 1) ;
-}
 
-.title {
-    font-size: 80px;
-    
-}
 
-.rary {
-    margin-left: 280px;
-}
 
 .next {
     font-size: 15px;
     margin-top: 500px;
 }
 
+/* .cube:hover {
+    transform: translateZ(250px) rotateY( 90deg);
+    transition: 0.2s ease-in;
+} */
+
+.rotateleft {
+    transform: translateZ(450px) rotateY( 90deg);
+    transition: 0.2s ease-in;
+}
+
+.center {
+    transform: translateZ(450px) rotateY(0deg);
+    transition: 0.2s ease-in;
+}
+
+.rotateright {
+    transform: translateZ(450px) rotateY(-90deg);
+    transition: 0.2s ease-in;
+}
+
+
+.inttext {
+    transform: rotateY(180deg);
+    font-size: 80px;
+}
+
+
+.rary {
+    margin-left: 280px;
+}
+
+.right {
+    height: 710px;
+    width: 700px;
+    margin-top: -710px;
+    margin-left: 710px;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(142, 142, 142);
+    margin-left: 1300px;
+    margin-top: -400px;
+    transform: rotateZ(90deg);
+}
+
+.triangle2 {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid rgb(142, 142, 142);
+    transform: rotateZ(-90deg);
+    margin-right: -50px;
+}
+
+.navbutton {
+    position: relative;
+
+}
