@@ -1,0 +1,41 @@
+body {
+    font-family: 'Aleo', sans-serif;
+}
+
+.tophalf {
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+}
+
+.text {
+    margin: 4%;
+}
+
+.back {
+
+    z-index: -1;
+}
+
+.back:hover {
+    background-color: black;
+    color: white;
+}
+
+.bottomhalf {
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+    
+}
+
+.container2 {
+    position: fixed;
+    top: 0;
+    margin-top: 30px;
+    width: 1300px;
+}
+
+body {
+    height: 2000px;
+}
