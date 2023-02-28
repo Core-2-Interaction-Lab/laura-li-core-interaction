@@ -73,3 +73,17 @@ body {
     background-color: black;
     color: white;
 }
+
+@media(max-width: 600px) {
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-top: -1200px;
+    }
+    .hexes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

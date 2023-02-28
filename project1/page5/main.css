@@ -1,26 +1,23 @@
 body {
     font-family: 'Aleo', sans-serif;
+    height: 800px;
+    overflow: hidden;
 }
 
-.container {
+.spanish {
     display: flex;
+    margin: 2%;
     justify-content: space-around;
-    margin: 3%;
 }
 
 .text {
     margin: 3%;
 }
 
-.back:hover {
-    background-color: black;
-    color: white;
-}
-
 @media(max-width: 600px) {
-    .container {
+    .spanish {
         display: flex;
         flex-direction: column;
-    }
 
+    }
 }

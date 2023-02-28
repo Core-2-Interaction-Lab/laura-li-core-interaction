@@ -39,3 +39,17 @@ body {
 body {
     height: 2000px;
 }
+
+@media(max-width: 600px) {
+    .tophalf {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .bottomhalf {
+        display: flex;
+        flex-direction: column;
+        margin-left: -20px;
+        width: 100vw;
+    }
+}
