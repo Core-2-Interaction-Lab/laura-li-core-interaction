@@ -1,0 +1,18 @@
+body {
+    font-family: 'Fraunces', serif;
+  
+  }
+
+
+.title {
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.center {
+    text-align: center;
+}
+
+.chap {
+    text-align: center;
+}

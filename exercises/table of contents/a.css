@@ -1,15 +1,19 @@
-@font-face {
+/* @font-face {
     font-family: 'Fraunces';
-    src: url('assets/franuces/Fraunces-9ptBlack.woff2') format('woff2');
+    src: url('assets/fraunces/Fraunces-9ptBlack.woff2') format('woff2');
     font-weight: 900;
     font-style: normal;
     font-display: swap;
-}
+} */
 
 body {
     font-family: 'Fraunces', serif;
     font-size: 16px;
   }
+
+.table {
+    width: 100vw;
+}
 
 .heading {
     text-align: center;
@@ -21,14 +25,24 @@ body {
     text-align: center;
 }
 
-.content {
-
-}
 
 .left {
     text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px;
+
+
 }
 
 .right {
-    margin-left: 30px;
+    text-align: right;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    font-weight: 200;
+
+}
+
+.contents {
+    text-align: center;
+    color: pink;
 }
