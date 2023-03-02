@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Aleo', sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -124,9 +124,14 @@ body {
     font-size: 80px;
 }
 
+.inttextwest {
+    transform: rotateY(180deg);
+    font-size: 50px;
+    text-align: center;
+}
 
 .rary {
-    margin-left: 280px;
+    margin-left: 260px;
 }
 
 .right {
