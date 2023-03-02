@@ -125,9 +125,9 @@ body {
 }
 
 .inttextw {
-    transform: rotateY(180deg);
     font-size: 50px;
     text-align: center;
+    transform: rotateY(180deg);
 }
 
 .rary {
