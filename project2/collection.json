@@ -1,0 +1,214 @@
+[
+    {
+        "Film": "Breaking Bad",
+        "date": 2008,
+        "genre": "Crime Drama",
+        "created by/ director": "Vince Gilligan",
+        "object": "Pink Bear",
+        "color": "pink, white, black",
+        "posterimg": "",
+        "objImg": "graphics/pinkbear.png"
+    },
+    {
+        "Film": "Three Idiots",
+        "date": 2009,
+        "genre": "Coming of Age",
+        "created by/ director": "Rajkumar Hirani",
+        "object": "Astronaut Pen",
+        "color": "Black"
+
+    },
+    {
+        "Film": "Harry Potter",
+        "date": "2001-2011",
+        "genre": "Fantasy",
+        "created by/ director": "Chris Columbus (1-2), Alfonso Cuarón(3), Mike Newell(4), David Yates(5-8)",
+        "object": "Golden Snitch",
+        "color": "Gold and Silver "
+    },
+    {
+        "Film": "Inception",
+        "date": 2010,
+        "genre": "Science Fiction Action",
+        "created by/ director": "Christopher Nolan",
+        "object": "Spinning Top Totem",
+        "color": "Metallic Black"
+    },
+    {
+        "Film": "Lord of the Rings",
+        "date": "2001–2003",
+        "genre": "Epic Fantasy Adventure",
+        "created by/ director": "Peter Jackson",
+        "object": "The One Ring",
+        "color": "Golden"
+    },
+    {
+        "Film": "It",
+        "date": 1990,
+        "genre": "Horror",
+        "created by/ director": "Tommy Lee Wallace",
+        "object": "Balloon",
+        "color": "Red"
+    },
+    {
+        "Film": "Nope",
+        "date": 2022,
+        "genre": "Horror",
+        "created by/ director": "Jordan Peele",
+        "object": "Shoe",
+        "color": "Blue, white"
+    },
+    {
+        "Film": "The Godfather",
+        "date": 1972,
+        "genre": "Crime Drama",
+        "created by/ director": "Francis Ford Coppola",
+        "object": "Orange",
+        "color": "Orange"
+    },
+    {
+        "Film": "Parasite",
+        "date": 2019,
+        "genre": "Black Comedy Drama",
+        "created by/ director": "Bong Joon Ho",
+        "object": "Scholars Rock",
+        "color": "Grey"
+    },
+    {
+        "Film": "The Hunger Games",
+        "date": 2012,
+        "genre": "Science Fiction Dystopian Adventure",
+        "created by/ director": "Gary Ross (1) Francis Lawrence (2–5)",
+        "object": "Mockingjay Pin",
+        "color": "Gold"
+    },
+    {
+        "Film": "Legally Blond",
+        "date": 2001,
+        "genre": "Romantic Comedy",
+        "created by/ director": "Robert Luketic",
+        "object": "Fluffy Pen",
+        "color": "Pink"
+    },
+    {
+        "Film": "The Grand Budapest Hotel",
+        "date": 2014,
+        "genre": "Comedy Drama",
+        "created by/ director": "Wes Anderson",
+        "object": "'Boy with Apple' painting ",
+        "color": "Red, multicolored"
+    },
+    {
+        "Film": "Groundhog Day",
+        "date": 1993,
+        "genre": "Fantasy Comedy",
+        "created by/ director": "Harold Ramis",
+        "object": "clock",
+        "color": "Black, white"
+    },
+    {
+        "Film": "Forrest Gump",
+        "date": 1994,
+        "genre": "Comedy Drama",
+        "created by/ director": "Robert Zemeckis",
+        "object": "Nike Shoes",
+        "color": "Red, white, blue"
+    },
+    {
+        "Film": "Jumanji",
+        "date": 1995,
+        "genre": "Fantasy Adventure",
+        "created by/ director": "Joe Johnston",
+        "object": "Jumanji Board Game",
+        "color": "Brown, green, yellow, red"
+    },
+    {
+        "Film": "Amelie",
+        "date": 2001,
+        "genre": "Romantic Comedy",
+        "created by/ director": "Jean-Pierre Jeunet",
+        "object": "Garden Gnome",
+        "color": "Red, white, blue"
+    },
+    {
+        "Film": "E.T. the Extra-Terrestrial",
+        "date": 1982,
+        "genre": "Science Fiction",
+        "created by/ director": "Steven Spielberg",
+        "object": "Bike",
+        "color": "Red, white"
+    },
+    {
+        "Film": "Juno",
+        "date": 2007,
+        "genre": "Coming-of-Age Comedy Drama",
+        "created by/ director": "Jason Reitman",
+        "object": "Hamburger Phone",
+        "color": "Orange, Brown, Green"
+    },
+
+    {
+        "Film": "Clueless",
+        "date": 1995,
+        "genre": "Coming-of-Age Comedy",
+        "created by/ director": "Amy Heckerling",
+        "object": "Fluffy Pen",
+        "color": "Pink"
+    },
+    {
+        "Film": "Oldboy",
+        "date": 2003,
+        "genre": "Neo-noir mystery thriller",
+        "created by/ director": "Park Chan-wook",
+        "object": "Hammer",
+        "color": "Black, silver, yellow"
+    },
+    {
+        "Film": "Breakfast at Tiffany's",
+        "date": 1961,
+        "genre": "Romantic Comedy",
+        "created by/ director": "Blake Edwards",
+        "object": "Cigarette Extender",
+        "color": "Black, gold, white"
+    },
+    {
+        "Film": "Pulp Fiction",
+        "date": 1994,
+        "genre": "Crime",
+        "created by/ director": "Quentin Tarantino",
+        "object": "Gold Watch",
+        "color": "Black, gold"
+    },
+    {
+        "Film": "Indiana Jones",
+        "date": 1981,
+        "genre": "Action Adventure",
+        "created by/ director": "George Lucas",
+        "object": "Whip",
+        "color": "Brown"
+    },
+    {
+        "Film": "Men in Black",
+        "date": 1997,
+        "genre": "Science Fiction Action Comedy",
+        "created by/ director": "Barry Sonnenfeld",
+        "object": "Neuralizer",
+        "color": "Silver"
+    },
+    {
+        "Film": "Rear Window",
+        "date": 1954,
+        "genre": "Mystery Thriller",
+        "created by/ director": "Alfred Hitchcock",
+        "object": "Camera",
+        "color": "Silver"
+    },
+    {
+        "Film": "Pan's Labrynth",
+        "date": 2006,
+        "genre": "Dark Fantasy Horror",
+        "created by/ director": "Guillermo del Toro",
+        "object": "Watch",
+        "color": "Silver"
+    }
+]
