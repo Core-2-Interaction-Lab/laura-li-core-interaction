@@ -1,0 +1,15 @@
+img {
+    width: 200px;
+    height: 200px;
+
+}
+
+#collection {
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    
+}
+
+/* h1 {
+    margin-bottom: 100px;
+} */

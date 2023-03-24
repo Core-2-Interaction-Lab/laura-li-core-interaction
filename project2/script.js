@@ -10,15 +10,20 @@ const createCollection = (collection) =>{
     const collectionGrid = document.getElementById('collection');
 
     collection.forEach (item => {
-        const listItem = document.createElement('li')
+        const listItem = document.createElement('ul')
 
-        const itemFilm = document.createElement ('h2')
-        itemFilm.innerHTML = item.Film
-        listItem.appendChild(itemFilm)
+        collectionGrid.appendChild(listItem)
 
-        const itemImage = document.createElement ('img')   
-        itemImage.src = item.objImg
-        listItem.appendChild(itemImage)
+        // const itemFilm = document.createElement ('h2')
+        // itemFilm.innerHTML = item.Film
+        // listItem.appendChild(itemFilm)
+
+        const itemImage = document.createElement ('img') 
+        if (item.ObjImg) {
+            itemImage.src = item.ObjImg
+            listItem.appendChild(itemImage)
+        }  
+     
 
         
     });
