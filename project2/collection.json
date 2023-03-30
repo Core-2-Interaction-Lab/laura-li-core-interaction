@@ -8,6 +8,7 @@
         "Color": "pink, white, black",
         "PosterImg": "",
         "ObjImg": "graphics/pinkbear.png"
+    
     },
     {
         "Film": "Three Idiots",
@@ -168,7 +169,7 @@
         "Created by/ Director": "Amy Heckerling",
         "Object": "Fluffy Pen",
         "Color": "Pink",
-        "ObjImg": "graphics/fluffypen.png"
+        "ObjImg": "graphics/fluffypen2.png"
     },
     {
         "Film": "Oldboy",
@@ -232,6 +233,107 @@
         "Object": "Watch",
         "Color": "Silver",
         "ObjImg": "graphics/PLwatch.png"
+    },
+    {
+        "Film": "Breaking Bad",
+        "Date": 2008,
+        "Genre": "Crime Drama",
+        "Created by/ Director": "Vince Gilligan",
+        "Object": "Walter's Hat",
+        "Color": "Black",
+        "ObjImg": "graphics/hat.png"
+    },
+    {
+        "Film": "Fight Club",
+        "Date": 1999,
+        "Genre": "Action Thriller",
+        "Created by/ Director": "David Fincher",
+        "Object": "Soap",
+        "Color": "Pink",
+        "ObjImg": "graphics/soap.png"
+    },
+    {
+        "Film": "The Matrix",
+        "Date": 1999,
+        "Genre": "Science Fiction Action",
+        "Created by/ Director": "The Wachowskis",
+        "Object": "Spoon",
+        "Color": "Silver",
+        "ObjImg": "graphics/spoon.png"
+    },
+    {
+        "Film": "Mean Girls",
+        "Date": 2004,
+        "Genre": "Teen Comedy",
+        "Created by/ Director": "Mark Waters",
+        "Object": "Burn Book",
+        "Color": "Pink",
+        "ObjImg": "graphics/burnbook.png"
+    },
+    {
+        "Film": "Beauty and the Beast",
+        "Date": 1991,
+        "Genre": "Musical Romantic Fantasy",
+        "Created by/ Director": "Gary Trousdale and Kirk Wise",
+        "Object": "Enchanted Rose",
+        "Color": "Pink, green",
+        "ObjImg": "graphics/rose.png"
+    },
+    {
+        "Film": "Do the Right Thing",
+        "Date": 1989,
+        "Genre": "Comedy Drama",
+        "Created by/ Director": "Spike Lee",
+        "Object": "Boom box",
+        "Color": "Black",
+        "ObjImg": "graphics/boombox.png"
+    },
+    {
+        "Film": "Willy Wonka and the Chocolate Factor",
+        "Date": 1971,
+        "Genre": "Musical Fantasy",
+        "Created by/ Director": "Mel Stuart",
+        "Object": "Golden Ticket",
+        "Color": "Gold",
+        "ObjImg": "graphics/goldenticket.png"
+    },
+    {
+        "Film": "Mary Poppins",
+        "Date": 1964,
+        "Genre": "Musical Fantasy",
+        "Created by/ Director": "Robert Stevenson",
+        "Object": "Umbrella",
+        "Color": "Black, Green",
+        "ObjImg": "graphics/umbrella.png"
+    },
+    {
+        "Film": "Titanic",
+        "Date": 1997,
+        "Genre": "Epic Romance",
+        "Created by/ Director": "James Cameron",
+        "Object": "Heart of the Ocean",
+        "Color": "Silver, Blue",
+        "ObjImg": "graphics/necklace.png"
+    },
+    {
+        "Film": "Castaway",
+        "Date": 2000,
+        "Genre": "Survival Drama",
+        "Created by/ Director": "Robert Zemeckis",
+        "Object": "Wilson",
+        "Color": "White, Red",
+        "ObjImg": "graphics/wilson.png"
+    },
+    {
+        "Film": "2001: A Space Odyssey",
+        "Date": 1968,
+        "Genre": "Science Fiction",
+        "Created by/ Director": "Stanley Kubrick",
+        "Object": "Bone",
+        "Color": "White",
+        "ObjImg": "graphics/bone.png"
     }
+
+
 ]
 

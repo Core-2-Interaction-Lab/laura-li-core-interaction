@@ -1,11 +1,3 @@
-// const wikiData = [
-//     {
-//         'title': 'Hazel dormouse', 
-//         'url': 'https://en.wikipedia.org/wiki/Hazel_dormouse',
-//         'date': '26 February 2023'
-//     }
-// ];
-
 const createCollection = (collection) =>{
     const collectionGrid = document.getElementById('collection');
 
@@ -37,4 +29,8 @@ fetch('collection.json')
 		// And passes the data to the function, above!
 		createCollection(collection) // In reverse order
 })
+
+const itemBalloon = document.createElement('balloon')
+itemBalloon.src = item.itemBalloon
+listItem.appendChild(itemBalloon)
 
