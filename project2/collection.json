@@ -3,296 +3,324 @@
         "Film": "Breaking Bad",
         "Date": 2008,
         "Genre": "Crime Drama",
-        "Created by/ Director": "Vince Gilligan",
+        "CreatedbyDirector": "Vince Gilligan",
         "Object": "Pink Bear",
         "Color": "pink, white, black",
         "PosterImg": "",
-        "ObjImg": "graphics/pinkbear.png"
-    
+        "ObjImg": "graphics/pinkbear.png",
+        "id": "pinkbear"
     },
     {
         "Film": "Three Idiots",
         "Date": 2009,
         "Genre": "Coming of Age",
-        "Created by/ Director": "Rajkumar Hirani",
+        "CreatedbyDirector": "Rajkumar Hirani",
         "Object": "Astronaut Pen",
         "Color": "Black",
-        "ObjImg": "graphics/astronautpen.png"
-
+        "ObjImg": "graphics/astronautpen.png",
+        "id": "pen"
     },
     {
         "Film": "Harry Potter",
         "Date": "2001-2011",
         "Genre": "Fantasy",
-        "Created by/ Director": "Chris Columbus (1-2), Alfonso Cuarón(3), Mike Newell(4), David Yates(5-8)",
+        "CreatedbyDirector": "Chris Columbus (1-2), Alfonso Cuarón(3), Mike Newell(4), David Yates(5-8)",
         "Object": "Golden Snitch",
         "Color": "Gold and Silver ",
-        "ObjImg": "graphics/snitch.png"
+        "ObjImg": "graphics/snitch.png",
+        "id": "snitch"
     },
     {
         "Film": "Inception",
         "Date": 2010,
         "Genre": "Science Fiction Action",
-        "Created by/ Director": "Christopher Nolan",
+        "CreatedbyDirector": "Christopher Nolan",
         "Object": "Spinning Top Totem",
         "Color": "Metallic Black",
-        "ObjImg": "graphics/top.png"
-
+        "ObjImg": "graphics/top.png",
+        "id": "top"
 
     },
     {
         "Film": "Lord of the Rings",
         "Date": "2001–2003",
         "Genre": "Epic Fantasy Adventure",
-        "Created by/ Director": "Peter Jackson",
+        "CreatedbyDirector": "Peter Jackson",
         "Object": "The One Ring",
         "Color": "Golden",
-        "ObjImg": "graphics/ring.png"
+        "ObjImg": "graphics/ring.png",
+        "id": "ring"
 
     },
     {
         "Film": "It",
         "Date": 1990,
         "Genre": "Horror",
-        "Created by/ Director": "Tommy Lee Wallace",
+        "CreatedbyDirector": "Tommy Lee Wallace",
         "Object": "Balloon",
         "Color": "Red",
-        "ObjImg": "graphics/balloon.png"
+        "ObjImg": "graphics/balloon.png",
+        "id": "balloon"
 
     },
     {
         "Film": "Nope",
         "Date": 2022,
         "Genre": "Horror",
-        "Created by/ Director": "Jordan Peele",
+        "CreatedbyDirector": "Jordan Peele",
         "Object": "Shoe",
         "Color": "Blue, white",
-        "ObjImg": "graphics/nopeshoe.png"
+        "ObjImg": "graphics/nopeshoe.png",
+        "id": "nopeshoe"
     },
     {
         "Film": "The Godfather",
         "Date": 1972,
         "Genre": "Crime Drama",
-        "Created by/ Director": "Francis Ford Coppola",
+        "CreatedbyDirector": "Francis Ford Coppola",
         "Object": "Orange",
         "Color": "Orange",
-        "ObjImg": "graphics/orange.png"
+        "ObjImg": "graphics/orange.png",
+        "id": "orange"
     },
     {
         "Film": "Parasite",
         "Date": 2019,
         "Genre": "Black Comedy Drama",
-        "Created by/ Director": "Bong Joon Ho",
+        "CreatedbyDirector": "Bong Joon Ho",
         "Object": "Scholars Rock",
         "Color": "Grey",
-        "ObjImg": "graphics/rock.png"
+        "ObjImg": "graphics/rock.png",
+        "id": "rock"
     },
     {
         "Film": "The Hunger Games",
         "Date": 2012,
         "Genre": "Science Fiction Dystopian Adventure",
-        "Created by/ Director": "Gary Ross (1) Francis Lawrence (2–5)",
+        "CreatedbyDirector": "Gary Ross (1) Francis Lawrence (2–5)",
         "Object": "Mockingjay Pin",
         "Color": "Gold",
-        "ObjImg": "graphics/mockingjaypin.png"
+        "ObjImg": "graphics/mockingjaypin.png",
+        "id": "pin"
     },
     {
         "Film": "Legally Blond",
         "Date": 2001,
         "Genre": "Romantic Comedy",
-        "Created by/ Director": "Robert Luketic",
+        "CreatedbyDirector": "Robert Luketic",
         "Object": "Fluffy Pen",
         "Color": "Pink",
-        "ObjImg": "graphics/fluffypen.png"
+        "ObjImg": "graphics/fluffypen.png",
+        "id": "pen"
     },
     {
         "Film": "The Grand Budapest Hotel",
         "Date": 2014,
         "Genre": "Comedy Drama",
-        "Created by/ Director": "Wes Anderson",
+        "CreatedbyDirector": "Wes Anderson",
         "Object": "'Boy with Apple' painting ",
         "Color": "Red, multiColored",
-        "ObjImg": "graphics/boywapple.png"
+        "ObjImg": "graphics/boywapple.png",
+        "id": "painting"
         
     },
     {
         "Film": "Groundhog Day",
         "Date": 1993,
         "Genre": "Fantasy Comedy",
-        "Created by/ Director": "Harold Ramis",
+        "CreatedbyDirector": "Harold Ramis",
         "Object": "clock",
         "Color": "Black, white",
-        "ObjImg": "graphics/alarmclock.png"
+        "ObjImg": "graphics/alarmclock.png",
+        "id": "clock"
     },
     {
         "Film": "Forrest Gump",
         "Date": 1994,
         "Genre": "Comedy Drama",
-        "Created by/ Director": "Robert Zemeckis",
+        "CreatedbyDirector": "Robert Zemeckis",
         "Object": "Nike Shoes",
         "Color": "Red, white, blue",
-        "ObjImg": "graphics/shoe.png"
+        "ObjImg": "graphics/shoe.png",
+        "id": "runshoes"
     },
     {
         "Film": "Jumanji",
         "Date": 1995,
         "Genre": "Fantasy Adventure",
-        "Created by/ Director": "Joe Johnston",
+        "CreatedbyDirector": "Joe Johnston",
         "Object": "Jumanji Board Game",
         "Color": "Brown, green, yellow, red",
-        "ObjImg": "graphics/jumanji.png"
+        "ObjImg": "graphics/jumanji.png",
+        "id": "jumanji"
     },
     {
         "Film": "Amelie",
         "Date": 2001,
         "Genre": "Romantic Comedy",
-        "Created by/ Director": "Jean-Pierre Jeunet",
+        "CreatedbyDirector": "Jean-Pierre Jeunet",
         "Object": "Garden Gnome",
         "Color": "Red, white, blue",
-        "ObjImg": "graphics/gnome.png"
+        "ObjImg": "graphics/gnome.png",
+        "id": "gnome"
     },
 
     {
         "Film": "Juno",
         "Date": 2007,
         "Genre": "Coming-of-Age Comedy Drama",
-        "Created by/ Director": "Jason Reitman",
+        "CreatedbyDirector": "Jason Reitman",
         "Object": "Hamburger Phone",
         "Color": "Orange, Brown, Green",
-        "ObjImg": "graphics/hamburgerphone.png"
+        "ObjImg": "graphics/hamburgerphone.png",
+        "id": "phone"
     },
 
     {
         "Film": "Clueless",
         "Date": 1995,
         "Genre": "Coming-of-Age Comedy",
-        "Created by/ Director": "Amy Heckerling",
+        "CreatedbyDirector": "Amy Heckerling",
         "Object": "Fluffy Pen",
         "Color": "Pink",
-        "ObjImg": "graphics/fluffypen2.png"
+        "ObjImg": "graphics/fluffypen2.png",
+        "id": "cluepen"
     },
     {
         "Film": "Oldboy",
         "Date": 2003,
         "Genre": "Neo-noir mystery thriller",
-        "Created by/ Director": "Park Chan-wook",
+        "CreatedbyDirector": "Park Chan-wook",
         "Object": "Hammer",
         "Color": "Black, silver, yellow",
-        "ObjImg": "graphics/hammer.png"
+        "ObjImg": "graphics/hammer.png",
+        "id": "hammer"
     },
     {
         "Film": "Breakfast at Tiffany's",
         "Date": 1961,
         "Genre": "Romantic Comedy",
-        "Created by/ Director": "Blake Edwards",
+        "CreatedbyDirector": "Blake Edwards",
         "Object": "Cigarette Extender",
         "Color": "Black, gold, white",
-        "ObjImg": "graphics/cigholder.png"
+        "ObjImg": "graphics/cigholder.png",
+        "id": "cig"
     },
     {
         "Film": "Pulp Fiction",
         "Date": 1994,
         "Genre": "Crime",
-        "Created by/ Director": "Quentin Tarantino",
+        "CreatedbyDirector": "Quentin Tarantino",
         "Object": "Gold Watch",
         "Color": "Black, gold",
-        "ObjImg": "graphics/PFwatch.png"
+        "ObjImg": "graphics/PFwatch.png",
+        "id": "pfwatch"
     },
     {
         "Film": "Indiana Jones",
         "Date": 1981,
         "Genre": "Action Adventure",
-        "Created by/ Director": "George Lucas",
+        "CreatedbyDirector": "George Lucas",
         "Object": "Whip",
         "Color": "Brown",
-        "ObjImg": "graphics/whip.png"
+        "ObjImg": "graphics/whip.png",
+        "id": "whip"
     },
     {
         "Film": "Men in Black",
         "Date": 1997,
         "Genre": "Science Fiction Action Comedy",
-        "Created by/ Director": "Barry Sonnenfeld",
+        "CreatedbyDirector": "Barry Sonnenfeld",
         "Object": "Neuralizer",
         "Color": "Silver",
-        "ObjImg": "graphics/neuralizer.png"
+        "ObjImg": "graphics/neuralizer.png",
+        "id": "neuralizer"
     },
     {
         "Film": "Rear Window",
         "Date": 1954,
         "Genre": "Mystery Thriller",
-        "Created by/ Director": "Alfred Hitchcock",
+        "CreatedbyDirector": "Alfred Hitchcock",
         "Object": "Camera",
         "Color": "Silver",
-        "ObjImg": "graphics/camera.png"
+        "ObjImg": "graphics/camera.png",
+        "id": "camera"
     },
     {
         "Film": "Pan's Labrynth",
         "Date": 2006,
         "Genre": "Dark Fantasy Horror",
-        "Created by/ Director": "Guillermo del Toro",
+        "CreatedbyDirector": "Guillermo del Toro",
         "Object": "Watch",
         "Color": "Silver",
-        "ObjImg": "graphics/PLwatch.png"
+        "ObjImg": "graphics/PLwatch.png",
+        "id": "plwatch"
     },
     {
         "Film": "Breaking Bad",
         "Date": 2008,
         "Genre": "Crime Drama",
-        "Created by/ Director": "Vince Gilligan",
+        "CreatedbyDirector": "Vince Gilligan",
         "Object": "Walter's Hat",
         "Color": "Black",
-        "ObjImg": "graphics/hat.png"
+        "ObjImg": "graphics/hat.png",
+        "id": "hat"
     },
     {
         "Film": "Fight Club",
         "Date": 1999,
         "Genre": "Action Thriller",
-        "Created by/ Director": "David Fincher",
+        "CreatedbyDirector": "David Fincher",
         "Object": "Soap",
         "Color": "Pink",
-        "ObjImg": "graphics/soap.png"
+        "ObjImg": "graphics/soap.png",
+        "id": "soap"
     },
     {
         "Film": "The Matrix",
         "Date": 1999,
         "Genre": "Science Fiction Action",
-        "Created by/ Director": "The Wachowskis",
+        "CreatedbyDirector": "The Wachowskis",
         "Object": "Spoon",
         "Color": "Silver",
-        "ObjImg": "graphics/spoon.png"
+        "ObjImg": "graphics/spoon.png",
+        "id": "spoon"
     },
     {
         "Film": "Mean Girls",
         "Date": 2004,
         "Genre": "Teen Comedy",
-        "Created by/ Director": "Mark Waters",
+        "CreatedbyDirector": "Mark Waters",
         "Object": "Burn Book",
         "Color": "Pink",
-        "ObjImg": "graphics/burnbook.png"
+        "ObjImg": "graphics/burnbook.png",
+        "id": "book"
     },
     {
         "Film": "Beauty and the Beast",
         "Date": 1991,
         "Genre": "Musical Romantic Fantasy",
-        "Created by/ Director": "Gary Trousdale and Kirk Wise",
+        "CreatedbyDirector": "Gary Trousdale and Kirk Wise",
         "Object": "Enchanted Rose",
         "Color": "Pink, green",
-        "ObjImg": "graphics/rose.png"
+        "ObjImg": "graphics/rose.png",
+        "id": "rose"
     },
     {
         "Film": "Do the Right Thing",
         "Date": 1989,
         "Genre": "Comedy Drama",
-        "Created by/ Director": "Spike Lee",
+        "CreatedbyDirector": "Spike Lee",
         "Object": "Boom box",
         "Color": "Black",
-        "ObjImg": "graphics/boombox.png"
+        "ObjImg": "graphics/boombox.png",
+        "id": "boombox"
     },
     {
         "Film": "Willy Wonka and the Chocolate Factor",
         "Date": 1971,
         "Genre": "Musical Fantasy",
-        "Created by/ Director": "Mel Stuart",
+        "CreatedbyDirector": "Mel Stuart",
         "Object": "Golden Ticket",
         "Color": "Gold",
         "ObjImg": "graphics/goldenticket.png"
@@ -301,7 +329,7 @@
         "Film": "Mary Poppins",
         "Date": 1964,
         "Genre": "Musical Fantasy",
-        "Created by/ Director": "Robert Stevenson",
+        "CreatedbyDirector": "Robert Stevenson",
         "Object": "Umbrella",
         "Color": "Black, Green",
         "ObjImg": "graphics/umbrella.png"
@@ -310,7 +338,7 @@
         "Film": "Titanic",
         "Date": 1997,
         "Genre": "Epic Romance",
-        "Created by/ Director": "James Cameron",
+        "CreatedbyDirector": "James Cameron",
         "Object": "Heart of the Ocean",
         "Color": "Silver, Blue",
         "ObjImg": "graphics/necklace.png"
@@ -319,7 +347,7 @@
         "Film": "Castaway",
         "Date": 2000,
         "Genre": "Survival Drama",
-        "Created by/ Director": "Robert Zemeckis",
+        "CreatedbyDirector": "Robert Zemeckis",
         "Object": "Wilson",
         "Color": "White, Red",
         "ObjImg": "graphics/wilson.png"
@@ -328,7 +356,7 @@
         "Film": "2001: A Space Odyssey",
         "Date": 1968,
         "Genre": "Science Fiction",
-        "Created by/ Director": "Stanley Kubrick",
+        "CreatedbyDirector": "Stanley Kubrick",
         "Object": "Bone",
         "Color": "White",
         "ObjImg": "graphics/bone.png"

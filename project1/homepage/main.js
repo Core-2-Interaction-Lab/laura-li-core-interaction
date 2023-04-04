@@ -35,3 +35,5 @@ function rotateRight() {
 
 triangle.addEventListener("click", rotateLeft);
 triangle2.addEventListener("click", rotateRight)
+
+
