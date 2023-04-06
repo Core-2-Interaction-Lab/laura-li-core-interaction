@@ -96,7 +96,8 @@ hr {
 
 .exit {
     color:rgb(68, 38, 56);
-    margin-left: 630px;
+    text-align: right;
+    margin-right: 10px;
     font-size: 12px;
 }
 
@@ -148,20 +149,29 @@ hr {
         gap: 20px;
     }
 
+    .challenge {
+        text-align: center;
+    }
+
     .highlight {
-        width: 50vw;
-        height: 100px;
+        width: 70vw;
+        height: 270px;
+        font-size: 20px;
+        margin-left: -50px;
+        
 
     }
     .object {
-        width: 20vw;
+        width: 50vw;
         height: auto;
+        font-size: 30px;
 
     }
     
     .des {
-        width: 30vw;
+        width: 50vw;
         height: auto;
+        font-size: 20px;
 
     }
 
@@ -172,6 +182,38 @@ hr {
     .cutout {
         display: none;
     }
+
+    .image {
+        width: 100px;
+        position: absolute;
+        left: 200px;
+    }
+
+
+}
+
+@media(max-width: 1000px) {
+    #collection {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        gap: 20px;
+    }
+
+    .item1, .item2 {
+        opacity: 0;
+    }
+
+}
+
+@media(max-width: 800px) {
+    #collection {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 20px;
+    }
+
+    
+
 }
 
 /* img {

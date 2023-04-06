@@ -39,6 +39,7 @@ const createCollection = (collection) => {
       const highlight = listItem.querySelector('.highlight');
       const image = listItem.querySelector('img');
       const title = document.querySelector('.collectiontitle');
+      const challenge = document.querySelector('.challenge');
   
       image.addEventListener('click', () => {
         const allHighlights = document.querySelectorAll('.highlight');
@@ -49,11 +50,15 @@ const createCollection = (collection) => {
         highlight.style.display = 'block';
         window.location.href = '#top';
         title.style.display = 'none';
+        challenge.style.display = 'none';
+
       });
   
       highlight.addEventListener('click', () => {
         highlight.style.display = 'none';
         title.style.display = 'block';
+        challenge.style.display = 'block';
+
       });
     });
   };
