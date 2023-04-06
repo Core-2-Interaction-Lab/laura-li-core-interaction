@@ -323,7 +323,8 @@
         "CreatedbyDirector": "Mel Stuart",
         "Object": "Golden Ticket",
         "Color": "Gold",
-        "ObjImg": "graphics/goldenticket.png"
+        "ObjImg": "graphics/goldenticket.png",
+        "id": "ticekt"
     },
     {
         "Film": "Mary Poppins",
@@ -332,7 +333,8 @@
         "CreatedbyDirector": "Robert Stevenson",
         "Object": "Umbrella",
         "Color": "Black, Green",
-        "ObjImg": "graphics/umbrella.png"
+        "ObjImg": "graphics/umbrella.png",
+        "id": "umbrella"
     },
     {
         "Film": "Titanic",
@@ -341,7 +343,8 @@
         "CreatedbyDirector": "James Cameron",
         "Object": "Heart of the Ocean",
         "Color": "Silver, Blue",
-        "ObjImg": "graphics/necklace.png"
+        "ObjImg": "graphics/necklace.png",
+        "id": "necklace"
     },
     {
         "Film": "Castaway",
@@ -350,7 +353,8 @@
         "CreatedbyDirector": "Robert Zemeckis",
         "Object": "Wilson",
         "Color": "White, Red",
-        "ObjImg": "graphics/wilson.png"
+        "ObjImg": "graphics/wilson.png",
+        "id": "wilson"
     },
     {
         "Film": "2001: A Space Odyssey",
@@ -359,7 +363,8 @@
         "CreatedbyDirector": "Stanley Kubrick",
         "Object": "Bone",
         "Color": "White",
-        "ObjImg": "graphics/bone.png"
+        "ObjImg": "graphics/bone.png",
+        "id": "bone"
     }
 
 
