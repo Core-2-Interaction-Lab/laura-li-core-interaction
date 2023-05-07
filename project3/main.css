@@ -1,0 +1,131 @@
+body {
+    margin:0 0 0 0;
+}
+
+.title {
+    margin-top: -60px;
+    margin-left: 20px;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Imbue';
+
+}
+
+.findpark {
+    background-color: #215827;
+    height: 65px;
+    width: 100vw;
+    margin-right: 10px;
+
+}
+
+.findparktext {
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    color: #76ADFF;
+    margin-left: 15px;
+    padding-top: 15px;
+    margin-top: -15px;
+    font-size: 30px;
+}
+
+.findfood {
+    background-color: #524FFF;
+    height: 65px;
+    width: 100vw;
+    margin-top: -93px
+}
+
+.findfoodtext {
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    color: #FFF72D;
+    font-size: 30px;
+    margin-left: 87vw;
+    padding-top: 15px;
+}
+
+.arrowup {
+    border: solid #76ADFF;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    zoom: 4.5;
+    margin-left: 21vw;
+    margin-top: -13px;
+
+}
+
+.arrowdown {
+    border: solid #FFF72D;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    zoom: 4.5;
+    margin-left: .5vw;
+    margin-top: -17px;
+
+}
+
+
+.name {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 270px;
+    font-weight: 900;
+    height: auto;
+    width: auto;
+    /* background-color: #57AA49; */
+    line-height: 100%;
+    /* margin-bottom: 0; */
+}
+
+.burger {
+    margin-top: 570px;
+    margin-left: 20px;
+    font-size: 250px;
+}
+
+.borough {
+    height: 100vh;
+
+}
+
+.label {
+    margin: 0 0 0 0;
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 70vh;
+}
+.lightblue {
+    background-color: #76ADFF;
+    color: #215827;
+}
+
+.green {
+    background-color: #3A752D;
+    color: #76ADFF;
+}
+
+.foodtype {
+    height: 100vh;
+
+}
+
+.yellow {
+    background-color: #FFF72D;
+    color:#524FFF;
+
+}
+
+.darkblue {
+    background-color: #524FFF;
+    color:#FFF72D;
+
+}
+
