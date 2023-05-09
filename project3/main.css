@@ -170,3 +170,44 @@ a:hover {
     margin-left: 400px;
     width: 500px;
 }
+
+@media(max-width: 600px) {
+
+    .name {
+        font-size: 100px;
+    }
+    .burger {
+        font-size: 100px;
+        margin-top: 100px;
+    }
+
+    .findparktext {
+        font-size: 30px;
+    }
+    .arrowup {
+        margin-left: 100px;
+    }
+    .findfoodtext {
+        margin-left: 350px;
+    }
+
+    .icon {
+        width: 400px;
+        margin-top: 100px;
+        margin-left: 60px;
+    }
+
+    .bottomlabel {
+        font-size: 80px;
+    }
+
+    .cutout {
+        width: 500px;
+        margin-left: 0;
+    }
+
+    .toplabel {
+        font-size: 80px;
+        margin-top: -50px;
+    }
+}

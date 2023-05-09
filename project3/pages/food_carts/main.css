@@ -242,3 +242,80 @@ body {
     margin-top: -80px;
     font-size: 30px;
 }
+
+@media(max-width: 600px) {
+
+    .icon {
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+
+    .name {
+        font-size: 80px;
+    }
+
+    .tabtext {
+        margin-top: -300px;
+        font-size: 30px;
+    }
+
+    .mainarea {
+        height: 100vh;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .hamburger {
+        margin-left: 450px;
+    }
+
+    .about {
+        margin-top: -50px;
+    }
+
+    .threelist {
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .count {
+        width: 80px;
+    }
+
+    .bubbles {
+        margin-left: 0;
+        width: 500px;
+    }
+
+    .man {
+        margin-left:270px ;
+        margin-top: -300px;
+        width: 500px;
+    }
+
+    .que {
+        margin-left: 0px;
+        margin-top: -130px;
+    }
+    .bro {
+        margin-left: 120px;
+        margin-top: 120px;
+        font-size: 25px;
+    }
+    .brx {
+        margin-left: 270px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .stat {
+        margin-left: 418px;
+        margin-top: -50px;
+        font-size: 20px;
+    }
+    .nameentry {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+}

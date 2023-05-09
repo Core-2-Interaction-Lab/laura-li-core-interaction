@@ -112,3 +112,36 @@ body {
     display: none;
 }
 
+@media(max-width: 600px) {
+
+    .icon {
+        margin-top: -50px;
+        margin-left: 20px;
+        width: 300px;
+    }
+
+    .name {
+        font-size: 80px;
+    }
+
+    .tabtext {
+        margin-top: 0px;
+        font-size: 30px;
+    }
+
+    .mainarea {
+        height: 100vh;
+    }
+
+    .logo {
+        margin-left: 50px;
+    }
+
+    .hamburger {
+        margin-left: 450px;
+    }
+    .nameentry {
+        font-size: 40px;
+        margin-left: 20px;
+    }
+}
