@@ -2,7 +2,7 @@ const createNames = (names) => {
     const nameList = document.getElementById('allnames');
   
     names.forEach((item) => {
-        if (item.type_name.includes('Snack Bar')) {
+        if (item.park_id.startsWith('Q')) {
             const nameEntry = document.createElement('ul');
             nameList.appendChild(nameEntry);
     

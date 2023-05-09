@@ -243,6 +243,13 @@ body {
     font-size: 30px;
 }
 
+.tab1:hover {
+    cursor: pointer;
+}
+.tab3:hover {
+    cursor: pointer;
+}
+
 @media(max-width: 600px) {
 
     .icon {

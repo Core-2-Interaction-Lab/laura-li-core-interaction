@@ -2,7 +2,7 @@ const createNames = (names) => {
     const nameList = document.getElementById('allnames');
   
     names.forEach((item) => {
-        if (item.type_name.includes('Snack Bar')) {
+        if (item.park_id.startsWith('X')) {
             const nameEntry = document.createElement('ul');
             nameList.appendChild(nameEntry);
     
@@ -16,7 +16,6 @@ const createNames = (names) => {
         }
     });
 };
-
 const createData = (data) => {
     const dataViz = document.getElementsByClassName('commonnames')[0]; // Use [0] to access the first element of the collection
 

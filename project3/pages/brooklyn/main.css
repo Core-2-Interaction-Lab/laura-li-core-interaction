@@ -113,6 +113,13 @@ body {
     display: none;
 }
 
+.tab1:hover {
+    cursor: pointer;
+}
+.tab3:hover {
+    cursor: pointer;
+}
+
 
 @media(max-width: 600px) {
 
