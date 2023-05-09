@@ -130,6 +130,9 @@ body {
     .name {
         font-size: 50px;
     }
+    .arrowright {
+        margin-left: -5px;
+    }
     .tabtext {
         margin-top: 100px;
         font-size: 20px;

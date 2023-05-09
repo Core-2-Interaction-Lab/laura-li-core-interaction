@@ -128,6 +128,10 @@ body {
         margin-left: 10px;
         width: 300px;
     }
+    
+    .arrowright {
+        margin-left: -5px;
+    }
     .name {
         font-size: 50px;
     }
