@@ -117,9 +117,22 @@ html {
     height: 50px;
 }
 
+.yellow:hover {
+    color:#E0BC00;
+}
+.darkblue:hover {
+    color: #908EFD;
+}
 .lightblue {
     background-color: #76ADFF;
     color: #215827;
+}
+
+.lightblue:hover {
+    color: #3BB71F;
+}
+.green:hover {
+    color: #2273EC;
 }
 
 .green {
