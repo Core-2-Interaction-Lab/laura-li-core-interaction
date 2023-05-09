@@ -7,40 +7,97 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script defer src="script.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmnySdd3FFK2Up3dVAv82xUNjEGLq6NrQ" defer></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmnySdd3FFK2Up3dVAv82xUNjEGLq6NrQ" defer></script> -->
     <link href="https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100;10..100,300;10..100,400;10..100,500;10..100,600;10..100,700;10..100,800;10..100,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section> 
-
-    </section>
-    <header>
-        <div> 
-            <div class="borough lightblue"><p class="label">Manhattan</p></div>
-            <div class="borough green"><p class="label">Brooklyn</p></div>
-            <div class="borough lightblue"><p class="label">Queens</p></div>
-        </div>
-        <div class="findpark">
-            <p class="findparktext">Find a Park!</p>
-            <p class="arrowup"></p>
-        </div>
-
-        <div class="title"> 
-            <p class="name">Hungry <br> in a Park </p>
-            <p class="burger">🍔</p>
-            
-        </div>
-        <div class="findfood">
-            <p class="findfoodtext">Find Food!</p>
-            <p class="arrowdown"></p>
-        </div>
-        <div> 
-            <div class="foodtype yellow"><p class="label">Manhattan</p></div>
-            <div class="foodtype darkblue"><p class="label">Brooklyn</p></div>
-            <div class="foodtype yellow"><p class="label">Queens</p></div>
-        </div>
-    </header>
+    <div class="container">
+        <header>
+            <div> 
+                <a href="pages/manhattan/index.html">
+                    <div class="borough lightblue">
+                            <img src="assets/borough-01.svg" class="cutout"/>
+                            <p class="toplabel">Manhattan</p>  
+                    </div>
+                </a> 
+                <a href="pages/brooklyn/index.html">
+                    <div class="borough green">
+                        <img src="assets/borough-02.svg" class="cutout"/>
+                        <p class="toplabel">Brooklyn</p>
+                    </div>
+                </a>
+                <a href="pages/queens/index.html">
+                    <div class="borough lightblue">
+                        <img src="assets/borough-03.svg" class="cutout"/>
+                        <p class="toplabel">Queens</p>
+                    </div>
+                </a>
+                <a href="pages/staten-island/index.html">
+                    <div class="borough green">
+                        <img src="assets/borough-04.svg" class="cutout"/>
+                        <p class="toplabel">Staten Island</p>
+                    </div>
+                </a>
+                <a href="pages/bronx/index.html">
+                    <div class="borough lightblue">
+                        <img src="assets/borough-05.svg" class="cutout"/>
+                        <p class="toplabel">Bronx</p>
+                    </div>
+                </a>
+    
+            </div>
+            <div class="findpark">
+                <p class="findparktext">Find a Park!</p>
+                <p class="arrowup"></p>
+            </div>
+    
+            <div class="title"> 
+                <p class="name">Hungry <br> in a Park </p>
+                <p class="burger">🍔</p>
+                
+            </div>
+            <div class="findfood">
+                <p class="findfoodtext">Find Food!</p>
+                <p class="arrowdown"></p>
+            </div>
+            <div> 
+                <a href="pages/food_carts/index.html">
+                    <div class="foodtype yellow">
+                        <p class="bottomlabel"> Food Carts</p>
+                        <img src="assets/icons-01.svg" class="icon"/>
+                    </div>
+                </a>
+                <a href="pages/food_trucks/index.html">
+                    <div class="foodtype darkblue">
+                        <p class="bottomlabel">Food Trucks</p>
+                        <img src="assets/icons-02.svg" class="icon"/>
+                    </div>
+                </a>
+                <a href="pages/restaurants/index.html">
+                    <div class="foodtype yellow">
+                        <p class="bottomlabel">Restaurants</p>
+                        <img src="assets/icons-03.svg" class="icon"/>
+                    </div>
+                </a>
+                <a href="pages/specialty_carts/index.html">
+                    <div class="foodtype darkblue">
+                        <p class="bottomlabel">Specialty Carts</p>
+                        <img src="assets/icons-04.svg" class="icon"/>
+                    </div>
+                </a>    
+                <a href="pages/snack_bar/index.html">
+                    <div class="foodtype yellow">
+                        <p class="bottomlabel">Snack Bar</p>
+                        <img src="assets/icons-05.svg" class="icon"/>
+                    </div>
+                </a>
+                
+    
+            </div>
+        </header>
+    </div>
+    
 
     
 </body>

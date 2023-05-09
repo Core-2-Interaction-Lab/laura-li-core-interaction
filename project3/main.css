@@ -1,5 +1,10 @@
 body {
     margin:0 0 0 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 .title {
@@ -9,7 +14,7 @@ body {
     display: flex;
     /* justify-content: center; */
     align-items: center;
-    font-family: 'Imbue';
+    font-family: 'Imbue', Georgia, 'Times New Roman', Times, serif;
 
 }
 
@@ -95,13 +100,23 @@ body {
 
 }
 
-.label {
+.toplabel {
     margin: 0 0 0 0;
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     font-size: 100px;
     text-align: center;
-    padding-top: 70vh;
+    padding-top: 10vh;
 }
+
+.bottomlabel {
+    margin: 0 0 0 0;
+    font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    text-align: center;    
+    padding-top: 10vh;
+    height: 50px;
+}
+
 .lightblue {
     background-color: #76ADFF;
     color: #215827;
@@ -129,3 +144,29 @@ body {
 
 }
 
+.icon {
+    margin-left: 270px;
+    margin-top: -20vh;
+    width: 800px;
+
+}
+
+a {
+    color: #524FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+
+
+.container {
+    height: 100%;
+}
+
+.cutout {
+    margin-left: 400px;
+    width: 500px;
+}
