@@ -326,3 +326,24 @@ body {
         margin-left: 20px;
     }
 }
+
+.mostpopular {
+    margin-top: -30px;
+    font-family: 'Imbue', Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+.threepopular {
+    font-family: 'Imbue', Georgia, 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin-top: -50px;
+    margin-left: 200px;
+    margin-bottom: -40px;
+    line-height: .9;
+}
+
+.atpark {
+    font-size: 30px;
+    margin-top: -120px;
+}
