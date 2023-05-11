@@ -8,95 +8,183 @@ html {
 }
 
 .title {
-    margin-top: -60px;
-    margin-left: 20px;
-    height: 100vh;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: flex-end;
     font-family: 'Imbue', Georgia, 'Times New Roman', Times, serif;
 
 }
 
 .findpark {
     background-color: #215827;
-    height: 65px;
+    height: 10vh;
     width: 100vw;
-    margin-right: 10px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
 .findparktext {
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     color: #76ADFF;
-    margin-left: 15px;
-    padding-top: 15px;
-    margin-top: -15px;
+    /* margin-left: 15px; */
+    /* padding-top: 15px; */
+    margin-top: 15px;
     font-size: 30px;
+    text-align: center;
+
 }
 
 .findfood {
     background-color: #524FFF;
-    height: 65px;
+    height: 10vh;
     width: 100vw;
-    margin-top: -93px
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 .findfoodtext {
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     color: #FFF72D;
     font-size: 30px;
-    margin-left: 87vw;
-    padding-top: 15px;
+    /* margin-left: 87vw; */
+    /* padding-top: 15px; */
+    text-align: center;
+
+}
+
+.scroll {
+    color: white;
 }
 
 .arrowup {
     border: solid #76ADFF;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
+    border-width: 0 15px 15px 0;
+    justify-self: flex-end;
+
+    /* display: inline-block; */
+    /* padding: 3px; */
     transform: rotate(-135deg);
-    zoom: 4.5;
-    margin-left: 21vw;
-    margin-top: -13px;
+    width: 30px;
+    height: 30px;
+    /* zoom: 4.5; */
+    /* margin-left: 21vw;
+    margin-top: -13px; */
 
 }
 
 .arrowdown {
     border: solid #FFF72D;
-    border-width: 0 3px 3px 0;
+    border-width: 0 15px 15px 0;
     display: inline-block;
     padding: 3px;
     transform: rotate(45deg);
-    zoom: 4.5;
+    width: 30px;
+    height: 30px;
+    /* zoom: 4.5; */
     margin-left: .5vw;
     margin-top: -17px;
 
 }
 
+.alignleft {
+    justify-self: flex-start;
+}
+
+.alignright {
+    justify-self: flex-end;
+}
+
 
 .name {
-    margin-left: 20px;
-    display: flex;
+    /* margin-left: 20px; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 270px;
+    align-items: center; */
+    font-size: 200px;
     font-weight: 900;
+    margin: 0 0 0 0;
     height: auto;
     width: auto;
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start:2;
     /* background-color: #57AA49; */
     line-height: 100%;
     /* margin-bottom: 0; */
 }
 
 .burger {
-    margin-top: 570px;
+    margin-top: 0;
+    margin-left: -20px;
+    font-size: 150px;
+}
+
+.subtitle {
+    justify-self: center;
+    align-self: flex-start;
+    grid-row-start: 3;
+    grid-column-start: 2;
+    font-size: 30px;
+}
+
+.dropdown {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 5px 5px 5px 5px;
+    align-self: flex-start;
+    justify-self: flex-start;
     margin-left: 20px;
-    font-size: 250px;
+    margin-top: 20px;
+}
+
+.description {
+    grid-row-start: 2;
+    align-self: flex-start;
+    margin-top: -19px;
+    margin-left: 25px;
+    border: solid 2px black;
+    padding: 5px 5px 5px 5px;
+    
+
+}
+
+.whatisthis {
+    border: solid 2px black;
+    padding: 5px 5px 5px 5px;
+
+
+}
+
+.whatisthis:hover {
+    color: white;
+    background-color: #3A752D;
+    cursor: pointer;
+}
+
+.quickstart {
+    border: solid 2px black;
+    align-self: flex-start;
+    justify-self: flex-end;
+    margin-right: 20px;
+    margin-top: 20px;
+    grid-column-start: 3;
 }
 
 .borough {
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -105,7 +193,8 @@ html {
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     font-size: 100px;
     text-align: center;
-    padding-top: 10vh;
+    /* padding-top: 10vh;
+    padding-bottom: 5vh; */
 }
 
 .bottomlabel {
@@ -113,8 +202,8 @@ html {
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     font-size: 100px;
     text-align: center;    
-    padding-top: 10vh;
-    height: 50px;
+    /* padding-top: 10vh; */
+    /* height: 50px; */
 }
 
 .yellow:hover {
@@ -141,7 +230,9 @@ html {
 }
 
 .foodtype {
-    height: 100vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -158,9 +249,10 @@ html {
 }
 
 .icon {
-    margin-left: 270px;
-    margin-top: -20vh;
-    width: 800px;
+    
+    /* margin-top: -20vh; */
+    /* width: 500px; */
+    height: 400px;
 
 }
 
@@ -181,7 +273,7 @@ a:hover {
 
 .cutout {
     margin-left: 400px;
-    width: 500px;
+    width: 400px;
 }
 
 @media(max-width: 600px) {

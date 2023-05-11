@@ -67,6 +67,7 @@ body {
     margin-top: 0;
     color: #524FFF;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .scrollarea {
@@ -75,7 +76,7 @@ body {
 }
 
 .icon {
-    margin-top: -30vh;
+    margin-top: 0;
 }
 
 .color {

@@ -67,6 +67,7 @@ body {
     margin-top: 0;
     color: #524FFF;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .scrollarea {
@@ -75,7 +76,7 @@ body {
 }
 
 .icon {
-    margin-top: -25vh;
+    margin-top: 0;
 }
 
 .color {
@@ -96,6 +97,7 @@ body {
     font-size: 80px;
     color: #524FFF;
 }
+
 
 .hamburger {
     width: 50px;
@@ -154,7 +156,7 @@ body {
 .circle {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: #FFF72D;
     border-radius: 50%;
 
 }
@@ -179,75 +181,57 @@ body {
     color:#FFF72D;
     width: 400px;
     opacity: 1;
+    text-align: center;
+    line-height: 30px;
+    /* margin-top: -80vh; */
 
 }
 .man {
-    margin-left: 730px;
-    margin-top: -370px;
-}
-
-.num {
-    background-color: red;
-    font-size: 200px;
-    color: orange;
-    display: none;
-}
-
-.numpos {
-    margin-left: 730px;
-    margin-top: -450px;
-}
-
-.numpos2 {
-    margin-left: 330px;
-    margin-top: -480px;
-}
-
-.numpos3 {
-    margin-left: 470px;
-    margin-top: -200px;
-}
-
-.numpos4 {
-    margin-left: 670px;
-    margin-top: -350px;
-}
-.numpos5 {
-    margin-left: 900px;
-    margin-top: -350px;
-    font-size: 80px;
-}
-
+    margin-left: 620px;
+    margin-top: -430px;
+} 
 
 .que {
-    margin-left: 330px;
-    margin-top: -170px;
-    font-size: 60px;
+    margin-left: 220px;
+    margin-top: -230px;
 }
 
 .bro {
-    margin-left: 450px;
-    margin-top: 170px;
-    font-size: 45px;
+    font-size: 40px;
+    margin-left: 335px;
+    margin-top: 130px;
 }
 
 .brx {
-    margin-left: 660px;
-    margin-top: -20px;
-    font-size: 45px;
+    font-size: 40px;
+    margin-left: 520px;
+    margin-top: -55px;
 }
 
 .stat {
-    margin-left: 880px;
-    margin-top: -80px;
+    font-size: 25px;
+    line-height: 1;
+    margin-left: 715px;
+    margin-top: -125px;
+}
+
+.staten {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.threenames {
     font-size: 30px;
 }
 
 .tab1:hover {
     cursor: pointer;
+    color: #E0BC00;
 }
 .tab3:hover {
     cursor: pointer;
+    color: #E0BC00;
 }
 
 @media(max-width: 600px) {
@@ -285,6 +269,8 @@ body {
     .threelist {
         width: 300px;
         font-size: 30px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
     }
 
     .count {
@@ -346,4 +332,13 @@ body {
 .atpark {
     font-size: 30px;
     margin-top: -120px;
+}
+
+/* .nameentry {
+    display: none;
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

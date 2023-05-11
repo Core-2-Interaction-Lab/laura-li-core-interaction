@@ -8,7 +8,9 @@ const createNames = (names) => {
     
             const details = `
                 <div class="nameentry">
-                    <li><span>${item.name}</span></li>
+                
+                    <li><span>${item.park_name}</span></li>
+
                 </div>
             `;
     

@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div id="container">
         <header>
             <div> 
                 <a href="pages/manhattan/index.html">
@@ -48,18 +48,27 @@
     
             </div>
             <div class="findpark">
-                <p class="findparktext">Find a Park!</p>
-                <p class="arrowup"></p>
+                <div class="arrowup alignright"></div>
+                <p class="findparktext"><span class="scroll">Scroll up</span> to Find a Park!</p>
+                <div class="arrowup alignleft"></div>
             </div>
     
             <div class="title"> 
-                <p class="name">Hungry <br> in a Park </p>
-                <p class="burger">🍔</p>
+                <div class="dropdown "> 
+                    <div class="whatisthis">what is this?</div>
+                </div>
+                <div class="dropdown description" style="display: none"> Need a place to eat while you’re in NYC’s hundreds of parks? <br>
+                    Here is a directory of the different types of food options, from food carts to restaurants 
+                </div>
+                <p class="name">Hungry <span class="burger">🍔</span><br> in a Park </p>
+                <div class="dropdown quickstart">quick start</div>
+                <div class="subtitle">a directory of park eateries</div>
                 
             </div>
             <div class="findfood">
-                <p class="findfoodtext">Find Food!</p>
-                <p class="arrowdown"></p>
+                <p class="arrowdown alignright"></p>
+                <div class="findfoodtext"><span class="scroll">Scroll Down</span> to Find Food!</div>
+                <p class="arrowdown alignleft"></p>
             </div>
             <div> 
                 <a href="pages/food_carts/index.html">
