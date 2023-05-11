@@ -7,7 +7,7 @@ const createNames = (names) => {
             nameList.appendChild(nameEntry);
     
             const details = `
-                <div class="nameentry">
+                <div class="nameentry" style="display:none;">
                     <li><span>${item.name}</span></li>
                 </div>
             `;
@@ -37,6 +37,8 @@ fetch('../../eateries.json')
 console.log("hello");
 
 const showAll = document.querySelector('.tab1');
+const tabsection = document.querySelector('.tabsection')
+
 
 showAll.addEventListener('click', () => {
     const names = document.querySelectorAll('.nameentry');
@@ -44,8 +46,11 @@ showAll.addEventListener('click', () => {
     names.forEach(name => {
         if (name.style.display === "none") {
             name.style.display = "block";
+            tabsection.scrollIntoView({block: 'start'});
+            showAll.style.color='#ADEA88';
         } else {
             name.style.display = "none";
+            showAll.removeAttribute('style');
         }
     });
 });

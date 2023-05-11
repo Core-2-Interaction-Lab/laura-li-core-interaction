@@ -39,6 +39,16 @@ body {
     margin-bottom: 0;
 }
 
+.arrowleft:hover {
+    border: solid #1C6CE4;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+}
+
+
+
 .arrowright {
     border: solid #76ADFF;
     border-width: 0 3px 3px 0;
@@ -50,6 +60,14 @@ body {
     zoom: 2;
     margin-left: 15px;
     margin-top: 10px;
+}
+
+.arrowright:hover {
+    border: solid #1C6CE4;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
 }
 
 .zoom {
@@ -77,6 +95,7 @@ body {
 
 .icon {
     margin-top: 0;
+    height: 400px;
 }
 
 .color {
@@ -88,7 +107,7 @@ body {
     width: 100vw;
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     margin-top: -200px;
 }

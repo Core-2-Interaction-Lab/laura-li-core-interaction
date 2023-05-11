@@ -52,6 +52,22 @@ body {
     margin-top: 10px;
 }
 
+.arrowleft:hover {
+    border: solid #1C6CE4;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(135deg);
+}
+
+.arrowright:hover {
+    border: solid #1C6CE4;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+}
+
 .zoom {
     zoom: 5;
 }
@@ -80,6 +96,10 @@ body {
     margin-left: 100px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .color {
     background-color: red;
 
@@ -89,7 +109,7 @@ body {
     width: 100vw;
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     text-align: center;
     margin-top: -100px;
 }
@@ -115,9 +135,11 @@ body {
 
 .tab1:hover {
     cursor: pointer;
+    color: #ADEA88;
 }
 .tab3:hover {
     cursor: pointer;
+    color: #ADEA88;
 }
 
 @media(max-width: 600px) {

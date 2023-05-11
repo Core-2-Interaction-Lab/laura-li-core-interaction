@@ -120,7 +120,7 @@ html {
     grid-column-start: 2;
     grid-row-start:2;
     /* background-color: #57AA49; */
-    line-height: 100%;
+    line-height: 90%;
     /* margin-bottom: 0; */
 }
 
@@ -171,6 +171,37 @@ html {
     background-color: #3A752D;
     cursor: pointer;
 }
+
+
+.quickfood {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    justify-self: flex-end;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quickicon {
+    width: 50px;
+    margin-top: 5px;
+}
+
+.quickboroughs {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    justify-self: flex-end;
+    align-self: flex-end;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quickcutout {
+    width: 50px;
+    margin-top: 5px;
+}
+
 
 .quickstart {
     border: solid 2px black;

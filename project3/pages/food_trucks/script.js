@@ -1,17 +1,17 @@
 const createNames = (names) => {
     const nameList = document.getElementById('allnames');
-  
+
     names.forEach((item) => {
         if (item.type_name.includes('Food Truck')) {
             const nameEntry = document.createElement('ul');
             nameList.appendChild(nameEntry);
-    
+
             const details = `
-                <div class="nameentry">
+                <div class="nameentry" style="display:none;"> <!-- Added class name "nameentry" -->
                     <li><span>${item.name}</span></li>
                 </div>
             `;
-    
+
             nameEntry.insertAdjacentHTML('beforeend', details);
         }
     });
@@ -38,15 +38,19 @@ fetch('../../eateries.json')
 console.log("hello");
 
 const showAll = document.querySelector('.tab1');
+const tabsection = document.querySelector('.tabsection')
 
 showAll.addEventListener('click', () => {
-    const names = document.querySelectorAll('.nameentry');
+    const names = document.querySelectorAll('.nameentry'); // Select elements with class name "nameentry"
 
     names.forEach(name => {
-        if (name.style.display === "none") {
+        if (name.style.display == "none") {
             name.style.display = "block";
+            tabsection.scrollIntoView({block: 'start'});
+            showAll.style.color='#E0BC00';
         } else {
             name.style.display = "none";
+            showAll.removeAttribute('style');
         }
     });
 });
