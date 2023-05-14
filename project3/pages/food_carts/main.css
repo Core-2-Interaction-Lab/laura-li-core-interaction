@@ -329,6 +329,7 @@ body {
     .nameentry {
         font-size: 40px;
         margin-left: 20px;
+        line-height: 120%;
     }
 }
 

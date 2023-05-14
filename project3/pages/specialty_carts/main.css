@@ -110,7 +110,7 @@ a {
     width: 100vw;
     font-family: 'Chelsea Market', Arial, Helvetica, sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     text-align: center;
     /* margin-top: -250px; */
 }

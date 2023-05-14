@@ -7,7 +7,7 @@ const createNames = (names) => {
             nameList.appendChild(nameEntry);
 
             const details = `
-                <div class="nameentry" style="display:none;"> <!-- Added class name "nameentry" -->
+                <div class="nameentry" style="display:none;">
                     <li><span>${item.name}</span></li>
                 </div>
             `;
