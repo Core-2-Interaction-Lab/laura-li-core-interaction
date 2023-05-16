@@ -1,0 +1,92 @@
+body {
+    font-family: sans-serif;
+    background-color: #00ff1a;
+}
+
+.title {
+    font-size: 100px;
+    color: red;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+img {
+    width: 65vw;
+    grid-column-start: 2;
+}
+
+.main {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 5fr 2fr;
+    row-gap: 100px;
+}
+
+.homepage {
+    border: 10px solid black;
+    border-radius: 10px;
+    grid-row-start: 1;
+}
+
+.description {
+    grid-column-start: 3;
+    margin-left: 20px;
+    width: 200px;
+    align-self: flex-start;
+}
+.description2 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.description3 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    margin-top: -60px;
+    font-size: 30px;
+}
+
+.description4 {
+    grid-column-start: 1;
+    grid-row-start: 4;
+    font-size: 30px;
+}
+
+
+
+.feature1 {
+    border: 10px solid black;
+    border-radius: 10px;
+
+}
+
+.feature2 {
+    grid-row-start: 3;
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 60px;
+
+}
+.feature3 {
+    grid-row-start: 3;
+    justify-self: flex-end;
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 60px;
+
+}
+
+.feature4 {
+    border: 10px solid black;
+    border-radius: 10px;
+    width: 400px;
+    justify-self: center;
+
+}
