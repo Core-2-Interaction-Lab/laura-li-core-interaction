@@ -318,13 +318,14 @@ a:hover {
     }
 
     .findparktext {
-        font-size: 30px;
+        font-size: 20px;
     }
-    .arrowup {
+    /* .arrowup {
         margin-left: 100px;
-    }
+    } */
     .findfoodtext {
-        margin-left: 350px;
+        font-size: 20px;
+        /* margin-left: 350px; */
     }
 
     .icon {

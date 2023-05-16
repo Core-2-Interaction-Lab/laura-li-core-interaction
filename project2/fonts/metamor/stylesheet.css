@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Metamor Bit_Trial';
+    src: url('MetamorBit_Trial-Regular.woff2') format('woff2'),
+        url('MetamorBit_Trial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

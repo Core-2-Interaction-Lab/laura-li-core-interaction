@@ -1,13 +1,90 @@
+@font-face {
+    font-family: 'Metamor Bit_Trial';
+    src: url('fonts/metamor/MetamorBit_Trial-Regular.woff2') format('woff2'),
+        url('fonts/metamor/MetamorBit_Trial-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Metamor Bit_Trial';
+}
+
+.header {
+    height: 50px;
+    background-color: pink;
+}
+
+.topbar {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.miniitem {
+    width: auto;
+    height: 40px;
+
+}
+
+.title {
+    font-size: 50px;
+    align-self: center;
+    color: #BB894C;
+}
+
+hr {
+    margin: 0 0 0 0;
+}
+
 img {
     width: 230px;
     height: auto;
 
 }
 
+.instruction {
+    color: #BB894C;
+    font-size: 50px;
+    width: 500px;
+    margin-left: 100px;
+}
+
+.arrowdown {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #BB894C;
+    align-self: center;
+
+}
+
+.alignright {
+    justify-self: center;
+}
+.alignleft {
+    justify-self: center;
+}
+.center {
+    justify-self: center;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 70vh;
+}
+
 #collection {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     gap: 20px;
+    width: 60vw;
     
 }
 
@@ -30,69 +107,80 @@ h1 {
     height: 50px;
 }
 
-.header {
+.buttons {
+    margin-left: 80px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+.easy {
+    width: auto;
+    margin-left: 20px;
+    grid-column-start:1;
+    background-color: #F5D9D9;
+    border: 10px solid #F5D9D9;
+    border-radius: 10px;
+}
+.hard {
+    width: auto;
+    margin-left: 20px;
+    grid-column-start:2;
+    background-color: #F5D9D9;
+    border: 10px solid #F5D9D9;
+    border-radius: 10px;
+
+
+}
+
+input {
+    margin:  50px 0px 20px 0px ;
+    border: 2px solid #97662E;
+}
+
+/* .header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     height: 500px;
-}
+} */
 
-.challenge {
+/* .challenge {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Courier New', Courier, monospace;
 
-}
+} */
 
-body {
+/* body {
     width: 98vw;
     margin: 10px 10px 10px 10px;
     border: 3px black solid;
-}
+} */
 
 hr {
     border: 2px black solid;
 }
 
-.item1 {
-    position: absolute;
-    top: 0;
-    left:0
-}
 
-.item2 {
-    position: absolute;
-    top: 270px;
-    right:0
-}
-.item3 {
-    position: absolute;
-    top: 0;
-    right:0
-}
-.item4 {
-    position: absolute;
-    top: 250px;
-    left:0
-}
 
-.description {
+/* .description {
    position: absolute;
    top: 200px;
    left: 25vw;
    z-index: 2;
 
     
-}
+} */
 
-.image {
+/* .image {
     position: absolute;
     z-index: 1;
     top: -50px;
     right: 0px;
-}
+} */
 
 .exit {
     color:rgb(68, 38, 56);
@@ -140,6 +228,13 @@ hr {
 
 .text {
     margin-left: 2px;
+}
+
+.cutout {
+    display: none;
+}
+.blackout {
+    display: block;
 }
 
 @media(max-width: 600px) {
