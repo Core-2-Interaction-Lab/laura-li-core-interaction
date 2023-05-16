@@ -5,9 +5,6 @@ const createCollection = (collection) => {
       const listItem = document.createElement('ul');
   
       collectionGrid.appendChild(listItem);
-
-      const input = document.createElement('input');
-      
   
       const itemImage = document.createElement('img');
       itemImage.classList.add("cutout");
@@ -26,7 +23,7 @@ const createCollection = (collection) => {
       }
   
       const itemDetails = `
-        <input type ="Guess" placeholder = "enter guess">
+        <input type ="Guess" placeholder = "enter guess" class="input">
         <div class="description" style="display:block">
           <div class="highlight">
             <div class="exit"> 
@@ -112,6 +109,40 @@ const createCollection = (collection) => {
         });
       });
       
+      const correct = item.Film;
+      const check = document.querySelector('.check');
+      const input = document.querySelectorAll('.input');
+      // input.style.borderColor = "#97662E";
+
+      const result = document.createElement('div');
+      listItem.appendChild(result);
+
+      check.addEventListener('click', () => {
+        const inputVal = listItem.querySelector('.input').value.trim().toLowerCase();
+        if (inputVal === correct.toLowerCase()) {
+          result.textContent = 'Correct!';
+          result.style.color = 'green'
+          // input.style.borderColor = '#65D30E';
+        } else {
+          result.textContent = 'Incorrect!';
+          result.style.color = 'red'
+          // Perform actions for an incorrect guess
+        }
+      });
+
+      // check.addEventListener('click', () => {
+      //   const inputval = input.value.trim(); // Trim whitespace from the input value
+      //   input.forEach((element) => {
+      //     if (inputval.toLowerCase() === correct.toLowerCase()) {
+      //       result.textContent = 'Correct!';
+      //       // Perform actions for a correct entry
+      //     } else {
+      //       result.textContent = 'Incorrect!';
+      //       // Perform actions for an incorrect entry
+      //     }
+      //   });
+        
+      // });
 
     });
   };
