@@ -250,12 +250,40 @@ hr {
 }
 
 @media(max-width: 600px) {
-    #collection {
-        grid-column-start:2;
+    body {
+        width: 100vw;
+    }
 
+    .topbar {
+        gap: 5px;
+    }
+
+    .header {
+        width: 100vw;
+    }
+    .title {
+        font-size: 20px;
+    }
+
+    .topbar {
+        width: 100vw;
+    }
+
+    .instruction {
+        font-size: 20px;
+        width: 100vw;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .check {
+        margin-left: 25vw;
+    }
+    #collection {
+        width: 100vw;
+        grid-column-start:2;
         display: grid;
-        grid-template-columns: repeat(1, 2fr);
-        gap: 20px;
+        grid-template-columns: 1fr 1fr;
     }
 
     .challenge {
@@ -271,12 +299,16 @@ hr {
 
     }
     .object {
-        width: 50vw;
+        width: 30vw;
         height: auto;
         font-size: 30px;
 
     }
+
     
+    .input {
+        width: 40vw;
+    }
     .des {
         width: 50vw;
         height: auto;
@@ -298,32 +330,14 @@ hr {
         left: 200px;
     }
 
+    .intro {
+        height: 30vh;
+    }
+
 
 }
 
-@media(max-width: 1000px) {
-    #collection {
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
-        gap: 20px;
-    }
 
-    .item1, .item2 {
-        opacity: 0;
-    }
-
-}
-
-@media(max-width: 800px) {
-    #collection {
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-        gap: 20px;
-    }
-
-    
-
-}
 
 /* img {
     opacity: 1;
