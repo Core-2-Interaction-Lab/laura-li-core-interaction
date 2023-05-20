@@ -194,12 +194,12 @@ hr {
     background-color: pink;
     border: 3px black solid;
     border-radius: 20px;
-    width: 50vw;
-    height: 300px;
+    width: 15vw;
+    height: 100px;
     display: flex;
     overflow: scroll;
-    font-family: 'Alfa Slab One', sans-serif;
-    margin-top: -100px;
+    margin-top: -200px;
+    z-index: -1h;
 
 }
 
@@ -228,6 +228,8 @@ hr {
 }
 
 .text {
+    color: red;
+    font-size: 10px;
     margin-left: 2px;
 }
 
